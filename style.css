@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: serif;
+    
+    
+}
+ .nav-link{
+     color: black;
+     
+ }
+ 
+
+ .navbar-nav{
+     
+     display: flex;
+     justify-content:space-evenly;
+     width: 100%;
+     font-weight: 600;
+ }
+
+ 
+ 
+ .background{
+     background-image: url(./ASSETS/Background.jpg);
+     
+     height: 300px;
+     margin: 2%;
+     border-radius: 50px;
+ }
+ h1{
+     color: white;
+     text-align: center;
+     
+ }
+ .heading{
+     
+     padding-top: 2%;
+ }
+ #card-details{
+     border: solid rgb(99, 95, 95);
+     
+     z-index: 10;
+     
+     margin: 5% 5%;
+     border-radius: 50px;
+     background-color: white;
+     
+     
+
+     
+ }
+ .carousal{
+     
+     width: 50%;
+     
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ .carousel{
+     width: 35%;
+     padding: 5%;
+ }
+
+ .details{
+     
+     width: 50%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     padding: 1%;
+ }
+ .cuttext{
+    
+     text-decoration: line-through;
+     font-size: 1.5rem;
+ }
+ .desc{
+     padding: 0 15%;
+ }
+ #features{
+     
+     text-align: center;
+     margin: 5% 5%;
+
+     
+ }
+.circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: black;
+    margin-bottom: 10% ;
+}
+.features-sec{
+    
+    border: solid rgb(99, 95, 95);
+    padding: 2%;
+    /* margin: 2% 0; */
+
+    display: flex;
+    flex-direction: row;
+    border-radius: 50px;
+    /* bottom: 20px; */
+    
+}
+.fetures-components{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    
+}
